@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YellowVC" customModule="nostoryboard" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="oYQ-FT-poE" id="dOU-0t-2wh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oYQ-FT-poE">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knv-fq-yYR">
+                    <rect key="frame" x="270" y="225" width="61" height="30"/>
+                    <state key="normal" title="gotoblue"/>
+                    <connections>
+                        <action selector="loadBlueView:" destination="-1" eventType="touchUpInside" id="HIK-bh-e8r"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="knv-fq-yYR" firstAttribute="top" secondItem="oYQ-FT-poE" secondAttribute="top" constant="225" id="U1Q-VK-W2q"/>
+                <constraint firstItem="knv-fq-yYR" firstAttribute="centerX" secondItem="oYQ-FT-poE" secondAttribute="centerX" id="tLr-bp-u4j"/>
+            </constraints>
+            <point key="canvasLocation" x="422" y="384"/>
+        </view>
+    </objects>
+</document>
